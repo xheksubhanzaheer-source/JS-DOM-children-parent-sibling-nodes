@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 45px;
+            width: 56px;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+    </div>
+
+ documernt.body.firstElementChild 
+ documernt.body.firstElementChild.childnodes
+ documernt.body.firstElementChild.children
+
+
+
+
+    <!-- <script src="script.js"> -->
+
+// Hello world
+// document.body
+// <body>​…​</body>​<div class=​"container">​…​</div>​<script src=​"script.js">​</script>​</body>​
+// document.body.childNodes
+// NodeList(5) [text, div.container, text, script, text]
+// document.body.childNodes[0]
+
+// #textassignedSlot: nullbaseURI: "http://127.0.0.1:3000/index.html"childNodes: NodeList []data: "\n    "firstChild: nullisConnected: truelastChild: nulllength: 5nextElementSibling: div.containernextSibling: div.containernodeName: "#text"nodeType: 3nodeValue: "\n    "ownerDocument: documentparentElement: bodyparentNode: bodypreviousElementSibling: nullpreviousSibling: nulltextContent: "\n    "wholeText: "\n    "[[Prototype]]: Text
+// document.body.childNodes[1].childNodes
+
+// NodeList(11) [text, div.box, text, div.box, text, div.box, text, div.box, text, div.box, text]
+// cont.lastElementchild
+// VM761:1 Uncaught ReferenceError: cont is not defined
+//     at <anonymous>:1:1
+// (anonymous) @ VM761:1Understand this error
+// cont.lastElementchild
+// VM924:1 Uncaught ReferenceError: cont is not defined
+//     at <anonymous>:1:1
+// (anonymous) @ VM924:1Understand this error
+// lastElementChild
+// VM1084:1 Uncaught ReferenceError: lastElementChild is not defined
+//     at <anonymous>:1:1
+// (anonymous) @ VM1084:1Understand this error
+// let cont = document.body.childNodes[1]
+// undefined
+// cont.lastElementChildhild
+
+// undefined
+// cont.lastElementchild.style.color = "red"
+
+// VM1232:1 Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+//     at <anonymous>:1:23
+// (anonymous) @ VM1232:1Understand this error
+// cont.lastElementChild.style.color = "red"
+
+// 'red'
+// cont.lastElementChild.style.backgroundColor = "black"
+
+// 'black'
+// cont.lastElementChild.parentElement
+
+// <div class=​"container">​…​</div>​
+
+    <!-- </script> -->
+</body>
+</html>
